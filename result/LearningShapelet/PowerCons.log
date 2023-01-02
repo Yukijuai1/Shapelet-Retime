@@ -1,0 +1,21 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(example.py:145318): Gdk-CRITICAL **: 09:21:39.465: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+
+Loading data...
+
+Training...
+
+Evaluating...
+accuracy  0.7833333333333333
+classification report...
+              precision    recall  f1-score   support
+
+         1.0       0.71      0.94      0.81        90
+         2.0       0.92      0.62      0.74        90
+
+    accuracy                           0.78       180
+   macro avg       0.82      0.78      0.78       180
+weighted avg       0.82      0.78      0.78       180
+

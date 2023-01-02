@@ -1,0 +1,60 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(example.py:74701): Gdk-CRITICAL **: 21:21:50.893: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+2023-01-02 21:21:51.178101: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-01-02 21:21:51.461821: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-01-02 21:21:51.465907: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2023-01-02 21:21:51.465952: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-01-02 21:21:52.172534: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-01-02 21:21:52.172661: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-01-02 21:21:52.172687: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/usr/local/lib/python3.8/dist-packages/tslearn/clustering/kmeans.py:16: UserWarning: Scikit-learn <0.24 will be deprecated in a future release of tslearn
+  warnings.warn(
+
+Loading data...
+/usr/local/lib/python3.8/dist-packages/tslearn/shapelets/shapelets.py:354: FutureWarning: The default value for 'scale' is set to False in version 0.4 to ensure backward compatibility, but is likely to change in a future version.
+  warnings.warn("The default value for 'scale' is set to False "
+
+Training...
+2023-01-02 21:21:53.890138: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2023-01-02 21:21:53.890193: W tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:265] failed call to cuInit: UNKNOWN ERROR (303)
+2023-01-02 21:21:53.890226: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (VM-20-10-ubuntu): /proc/driver/nvidia/version does not exist
+2023-01-02 21:21:53.890517: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+Evaluating...
+accuracy  0.5405952380952381
+classification report...
+              precision    recall  f1-score   support
+
+         1.0       0.82      0.56      0.67       700
+         2.0       0.88      0.29      0.44       700
+         3.0       0.37      0.42      0.40       700
+         4.0       0.28      0.12      0.17       700
+         5.0       0.30      0.24      0.26       700
+         6.0       0.35      0.22      0.27       700
+         7.0       0.60      0.70      0.65       700
+         8.0       0.37      0.30      0.33       700
+         9.0       0.31      0.18      0.23       700
+        10.0       0.52      0.78      0.62       700
+        11.0       0.73      0.50      0.59       700
+        12.0       0.38      0.39      0.39       700
+        13.0       0.58      0.05      0.09       700
+        14.0       0.74      0.17      0.28       700
+        15.0       0.47      0.72      0.57       700
+        16.0       0.36      0.88      0.51       700
+        17.0       0.63      0.90      0.74       700
+        18.0       0.89      0.82      0.86       700
+        19.0       0.57      0.36      0.44       700
+        20.0       0.43      0.92      0.58       700
+        21.0       0.73      0.88      0.80       700
+        22.0       0.64      0.94      0.76       700
+        23.0       0.90      0.68      0.77       700
+        24.0       0.71      0.95      0.81       700
+
+    accuracy                           0.54     16800
+   macro avg       0.57      0.54      0.51     16800
+weighted avg       0.57      0.54      0.51     16800
+
