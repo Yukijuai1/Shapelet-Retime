@@ -3,7 +3,7 @@
 python3 KNN/knn.py --dataset=Car
 
 #PPSN
-#python3 PPSN/ppsn.py --datatser=Car
+python3 PPSN/ppsn.py --datatser=Car
 
 #LearningShapelet
 python3 LearningShapelet/example.py --dataset=Car
