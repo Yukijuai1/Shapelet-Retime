@@ -1,0 +1,218 @@
+parse arguments succeed !!!
+105 1 144
+start new network training
+train encoder
+batch time:  0.257493911900868
+batch time:  0.2554505117703229
+batch time:  0.06889956439845264
+epoch 0 loss:  68.34321261999403
+epoch 0 time:  0.5819457624262819
+batch time:  0.24363322402350604
+batch time:  0.24234991803144415
+batch time:  0.07243317767667273
+epoch 1 loss:  32.45547287754994
+epoch 1 time:  0.558584498334676
+batch time:  0.2556323958250383
+batch time:  0.2496516620585074
+batch time:  0.07283174167387188
+epoch 2 loss:  29.72246584468394
+epoch 2 time:  0.5783275499319037
+batch time:  0.25930630376872915
+batch time:  0.24832767884557447
+batch time:  0.07364532744201521
+epoch 3 loss:  17.554820288923345
+epoch 3 time:  0.5814812737361839
+batch time:  0.2607200191201021
+batch time:  0.2636232258751988
+batch time:  0.07394275966410836
+epoch 4 loss:  13.239323638550191
+epoch 4 time:  0.5984597448570033
+batch time:  0.25496056649523474
+batch time:  0.25172937209717927
+batch time:  0.0721271384973079
+epoch 5 loss:  11.684933190072607
+epoch 5 time:  0.5790129881662627
+batch time:  0.2513920145264516
+batch time:  0.2441494514544805
+batch time:  0.07076743490373096
+epoch 6 loss:  9.843723984234233
+epoch 6 time:  0.5664059138391166
+batch time:  0.2608751014030228
+batch time:  0.26242973318633933
+batch time:  0.073606010278066
+epoch 7 loss:  6.858317805389188
+epoch 7 time:  0.5970222753938288
+batch time:  0.2502699438172082
+batch time:  0.24990046901317933
+batch time:  0.07363798559332888
+epoch 8 loss:  4.004260721520502
+epoch 8 time:  0.5740115356165916
+batch time:  0.2648496526293457
+batch time:  0.2550567956020435
+batch time:  0.0725453593612959
+epoch 9 loss:  3.5337824768944732
+epoch 9 time:  0.5926801316440106
+batch time:  0.25487699657678603
+batch time:  0.2526343641957889
+batch time:  0.07220943844877184
+epoch 10 loss:  1.7087275980141867
+epoch 10 time:  0.5798158181986461
+batch time:  0.2454183177401622
+batch time:  0.2608696538644532
+batch time:  0.07868292859445015
+epoch 11 loss:  1.5799279834345594
+epoch 11 time:  0.5850954308329771
+batch time:  0.23752352027222515
+batch time:  0.2560525936540216
+batch time:  0.0713456981194516
+epoch 12 loss:  -0.08121061343691538
+epoch 12 time:  0.5650705944901954
+batch time:  0.2582581093845268
+batch time:  0.25309777550088863
+batch time:  0.07444018960619966
+epoch 13 loss:  -0.7405604007490192
+epoch 13 time:  0.585923238703981
+batch time:  0.2522300683738043
+batch time:  0.24402218602287273
+batch time:  0.07265320899896324
+epoch 14 loss:  -1.0552337194344261
+epoch 14 time:  0.5689822854939848
+batch time:  0.24722422465371588
+batch time:  0.2510285478550941
+batch time:  0.07173922277676563
+epoch 15 loss:  -1.3913312847676373
+epoch 15 time:  0.5700829805806279
+batch time:  0.240084597049281
+batch time:  0.24626634254430732
+batch time:  0.07251194094618162
+epoch 16 loss:  -2.702080149436556
+epoch 16 time:  0.5589507346196722
+batch time:  0.2432415983173996
+batch time:  0.25573654216714203
+batch time:  0.07027278956957161
+epoch 17 loss:  -1.8740518686616952
+epoch 17 time:  0.5693562812637538
+batch time:  0.24279384763600925
+batch time:  0.25442111942296225
+batch time:  0.0716131542964528
+epoch 18 loss:  -3.0232453260080554
+epoch 18 time:  0.5690290969951699
+batch time:  0.24775360360120732
+batch time:  0.25413677326093115
+batch time:  0.07246092751932641
+epoch 19 loss:  -3.3331012906384183
+epoch 19 time:  0.5745563537968944
+batch time:  0.24899177411571144
+batch time:  0.2528578442521393
+batch time:  0.07198656021306912
+epoch 20 loss:  -4.348970516656803
+epoch 20 time:  0.5740378249747058
+batch time:  0.2506985373950253
+batch time:  0.24193206002625325
+batch time:  0.07254863011961182
+epoch 21 loss:  -4.55479098682278
+epoch 21 time:  0.5654561484542986
+batch time:  0.24859085922750335
+batch time:  0.2480689995766928
+batch time:  0.0731507743243128
+epoch 22 loss:  -4.9285471681834245
+epoch 22 time:  0.5700791429107388
+batch time:  0.23415708852310976
+batch time:  0.2423135402146727
+batch time:  0.07054558208522697
+epoch 23 loss:  -5.007132450781977
+epoch 23 time:  0.5472657929019381
+batch time:  0.2582899379854401
+batch time:  0.24413225459866225
+batch time:  0.07322532956798872
+epoch 24 loss:  -5.178685815137499
+epoch 24 time:  0.5758380951204648
+batch time:  0.2567292730944852
+batch time:  0.2401105294159303
+batch time:  0.07239064240517716
+epoch 25 loss:  -5.3712317791939554
+epoch 25 time:  0.5694197799389561
+batch time:  0.2575951999829461
+batch time:  0.24577228487469255
+batch time:  0.07209884508823355
+epoch 26 loss:  -5.90080576493121
+epoch 26 time:  0.5756070645836492
+batch time:  0.25185658160286645
+batch time:  0.25307423803023993
+batch time:  0.0729902783719202
+epoch 27 loss:  -5.303197586580775
+epoch 27 time:  0.5781255456618964
+batch time:  0.24476695364962023
+batch time:  0.2455525985918939
+batch time:  0.07234774994043013
+epoch 28 loss:  -5.902647582750894
+epoch 28 time:  0.5627571622375399
+batch time:  0.2392544185742736
+batch time:  0.24527867372768622
+batch time:  0.07153925901899735
+epoch 29 loss:  -5.727821970285282
+epoch 29 time:  0.5562229321027795
+encode time:  17.21600148845464
+
+Start sliding the raw time series and the corresponding class and variate label
+0
+X_slide shape: (2205, 86)
+candidates_dim: (2205, 86)
+candidates_class_label: (2205, 86)
+batch number:  45
+count:  0
+representation_all shape: (2205, 320)
+1
+X_slide shape: (3150, 57)
+candidates_dim: (3150, 57)
+candidates_class_label: (3150, 57)
+batch number:  63
+count:  0
+representation_all shape: (5355, 320)
+2
+X_slide shape: (4200, 28)
+candidates_dim: (4200, 28)
+candidates_class_label: (4200, 28)
+batch number:  84
+count:  0
+representation_all shape: (9555, 320)
+End sliding
+siding time:  0.07396258621787032
+
+* All the shapelets info:
+(9555, 320)
+9555
+(9555,)
+all subTs num: [2205, 3150, 4200]
+
+Start clustring all the new representations...
+End clustring
+clustring time: 0.7618563557664554
+
+calculate elements number in each cluster
+time: 0.3382883071899414
+
+get the nearest index
+time: 0.11883711814880371
+
+Start scoring all the candidate...
+End scoring
+discovery time:  0.8478239120915532
+transformation time:  0.030069199406231442
+classification time:  1.8503873919447265e-05
+svm linear Accuracy: 0.9333333333333333
+              precision    recall  f1-score   support
+
+           1       0.82      0.93      0.87        15
+           2       0.93      0.81      0.87        16
+           3       1.00      1.00      1.00        21
+           4       0.93      1.00      0.97        14
+           5       1.00      1.00      1.00        17
+           6       0.86      1.00      0.92        12
+           7       1.00      0.70      0.82        10
+
+    accuracy                           0.93       105
+   macro avg       0.93      0.92      0.92       105
+weighted avg       0.94      0.93      0.93       105
+
+All time:  18.185708885701995

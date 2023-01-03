@@ -1,0 +1,153 @@
+parse arguments succeed !!!
+20 1 24
+start new network training
+train encoder
+batch time:  0.12885053294400375
+epoch 0 loss:  81226.79161948116
+epoch 0 time:  0.12885623758969209
+batch time:  0.12851253532183668
+epoch 1 loss:  49413.725405530364
+epoch 1 time:  0.12851738763662676
+batch time:  0.12986559779383242
+epoch 2 loss:  34224.61706666785
+epoch 2 time:  0.12995011328409115
+batch time:  0.1301234778172026
+epoch 3 loss:  26314.50945907155
+epoch 3 time:  0.13020376808320483
+batch time:  0.13067115059432885
+epoch 4 loss:  20070.28546486161
+epoch 4 time:  0.130782523813347
+batch time:  0.13088941518217326
+epoch 5 loss:  17506.51909035393
+epoch 5 time:  0.13098674731639523
+batch time:  0.13046807036735117
+epoch 6 loss:  14405.311281559978
+epoch 6 time:  0.13057382199913264
+batch time:  0.1308353104783843
+epoch 7 loss:  12931.39575036127
+epoch 7 time:  0.13092809601997335
+batch time:  0.1297352618072182
+epoch 8 loss:  11678.235362854048
+epoch 8 time:  0.1298065104832252
+batch time:  0.13098954592520992
+epoch 9 loss:  9802.424858265153
+epoch 9 time:  0.1310475083378454
+batch time:  0.1309871881113698
+epoch 10 loss:  10705.41821775663
+epoch 10 time:  0.1310601142545541
+batch time:  0.13099798421996336
+epoch 11 loss:  8510.285961334583
+epoch 11 time:  0.13110006743421157
+batch time:  0.13128082831390203
+epoch 12 loss:  7965.221434361602
+epoch 12 time:  0.13135143811814487
+batch time:  0.13118816060014069
+epoch 13 loss:  8165.204569498628
+epoch 13 time:  0.13128534111504753
+batch time:  0.13631625341561934
+epoch 14 loss:  6196.148071216663
+epoch 14 time:  0.13643870406473677
+batch time:  0.12815363369882107
+epoch 15 loss:  5965.18554916736
+epoch 15 time:  0.1282763553938518
+batch time:  0.12814259693647426
+epoch 16 loss:  5132.657467101757
+epoch 16 time:  0.1282390227696548
+batch time:  0.12788953504835565
+epoch 17 loss:  4759.106578493933
+epoch 17 time:  0.1279846922804912
+batch time:  0.12853224215408166
+epoch 18 loss:  5012.4123415048
+epoch 18 time:  0.1286268652571986
+batch time:  0.1315590797457844
+epoch 19 loss:  4333.914123632632
+epoch 19 time:  0.13165983186724287
+batch time:  0.1321773394321402
+epoch 20 loss:  4470.633348938376
+epoch 20 time:  0.13226650677000482
+batch time:  0.1319715559637795
+epoch 21 loss:  3945.148584928421
+epoch 21 time:  0.1320732486434281
+batch time:  0.13151593009630838
+epoch 22 loss:  3980.9396935050663
+epoch 22 time:  0.13161902207260331
+batch time:  0.13204170800745488
+epoch 23 loss:  3457.393417030201
+epoch 23 time:  0.13213934248002868
+batch time:  0.1311182781898727
+epoch 24 loss:  3722.2795840860376
+epoch 24 time:  0.13121932726353408
+batch time:  0.13083911673165857
+epoch 25 loss:  3897.275670354862
+epoch 25 time:  0.130930547711129
+batch time:  0.12533330993416408
+epoch 26 loss:  3130.5077402241873
+epoch 26 time:  0.12542451870006818
+batch time:  0.12542218631133437
+epoch 27 loss:  2988.6646378971136
+epoch 27 time:  0.12552172338279585
+batch time:  0.1250909397844225
+epoch 28 loss:  2842.2375719336624
+epoch 28 time:  0.12519294386729599
+batch time:  0.12529500910701852
+epoch 29 loss:  2664.6398300794767
+epoch 29 time:  0.12535013053566219
+encode time:  3.905543893529102
+
+Start sliding the raw time series and the corresponding class and variate label
+0
+X_slide shape: (220, 14)
+candidates_dim: (220, 14)
+candidates_class_label: (220, 14)
+batch number:  5
+count:  0
+representation_all shape: (220, 320)
+1
+X_slide shape: (320, 9)
+candidates_dim: (320, 9)
+candidates_class_label: (320, 9)
+batch number:  7
+count:  0
+representation_all shape: (540, 320)
+2
+X_slide shape: (420, 4)
+candidates_dim: (420, 4)
+candidates_class_label: (420, 4)
+batch number:  9
+count:  0
+representation_all shape: (960, 320)
+End sliding
+siding time:  0.0064332851053526
+
+* All the shapelets info:
+(960, 320)
+960
+(960,)
+all subTs num: [220, 320, 420]
+
+Start clustring all the new representations...
+End clustring
+clustring time: 0.0642796479475995
+
+calculate elements number in each cluster
+time: 0.35784029960632324
+
+get the nearest index
+time: 0.0635075569152832
+
+Start scoring all the candidate...
+End scoring
+discovery time:  0.08049839333010217
+transformation time:  0.0010483246141423782
+classification time:  1.0759212697545687e-05
+svm linear Accuracy: 0.9300291545189504
+              precision    recall  f1-score   support
+
+           1       0.82      0.95      0.88        94
+           2       0.98      0.92      0.95       249
+
+    accuracy                           0.93       343
+   macro avg       0.90      0.94      0.92       343
+weighted avg       0.94      0.93      0.93       343
+
+All time:  4.050637466460467

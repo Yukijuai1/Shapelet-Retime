@@ -1,0 +1,185 @@
+parse arguments succeed !!!
+60 1 637
+start new network training
+train encoder
+batch time:  0.34117676558283466
+batch time:  0.1966313855877767
+epoch 0 loss:  331.77710985934584
+epoch 0 time:  0.5378282270239045
+batch time:  0.33069641060816746
+batch time:  0.20173896397463978
+epoch 1 loss:  190.10891390708446
+epoch 1 time:  0.5326187166074912
+batch time:  0.32189222425222397
+batch time:  0.20005969457949202
+epoch 2 loss:  146.64841410909835
+epoch 2 time:  0.5221658450706551
+batch time:  0.33531000528795024
+batch time:  0.1987613811623305
+epoch 3 loss:  82.79838950652803
+epoch 3 time:  0.5342479920790841
+batch time:  0.3317707435383151
+batch time:  0.2024251555558294
+epoch 4 loss:  99.80551281370134
+epoch 4 time:  0.5344003717880697
+batch time:  0.32681224853731694
+batch time:  0.2123380870403101
+epoch 5 loss:  52.79348337824614
+epoch 5 time:  0.5393035564571619
+batch time:  0.32979647130705414
+batch time:  0.20033480638327697
+epoch 6 loss:  66.18158196743826
+epoch 6 time:  0.5303343974829962
+batch time:  0.3277536201446007
+batch time:  0.21368129656960566
+epoch 7 loss:  24.792829876430176
+epoch 7 time:  0.5416501896145444
+batch time:  0.33449444505386056
+batch time:  0.2097723958858599
+epoch 8 loss:  42.97435285010252
+epoch 8 time:  0.5444608312410613
+batch time:  0.3250252950936556
+batch time:  0.19944987612155576
+epoch 9 loss:  35.41477263385454
+epoch 9 time:  0.5245525200851262
+batch time:  0.33143456525479753
+batch time:  0.21480374947811168
+epoch 10 loss:  30.55412376221444
+epoch 10 time:  0.5463253177547206
+batch time:  0.3395449860642354
+batch time:  0.20383645611194273
+epoch 11 loss:  17.513953196968448
+epoch 11 time:  0.5434852565017839
+batch time:  0.32986985112850864
+batch time:  0.1920525948051363
+epoch 12 loss:  28.94393033832811
+epoch 12 time:  0.5220348511977743
+batch time:  0.3325335557106882
+batch time:  0.1967917777132243
+epoch 13 loss:  39.70514165581402
+epoch 13 time:  0.5294119202531874
+batch time:  0.33158995610040926
+batch time:  0.20572064647761484
+epoch 14 loss:  18.865503626190414
+epoch 14 time:  0.5374825236853212
+batch time:  0.33864794882635274
+batch time:  0.19036580654792487
+epoch 15 loss:  29.76638438109636
+epoch 15 time:  0.5291568357342233
+batch time:  0.32892699651420115
+batch time:  0.2132463021359096
+epoch 16 loss:  26.722922943158718
+epoch 16 time:  0.5423278210063776
+batch time:  0.329179411365961
+batch time:  0.2053526055222998
+epoch 17 loss:  23.160358617769877
+epoch 17 time:  0.5347186326049268
+batch time:  0.33604434294005237
+batch time:  0.21351208601457378
+epoch 18 loss:  29.521996921870564
+epoch 18 time:  0.5496633130746583
+batch time:  0.32408866062760355
+batch time:  0.3002779307619979
+epoch 19 loss:  21.070679203277486
+epoch 19 time:  0.624506569483007
+batch time:  0.4147711836577704
+batch time:  0.34104266671153405
+epoch 20 loss:  14.806230550672737
+epoch 20 time:  0.7559889508566509
+batch time:  0.47650996935553847
+batch time:  0.2528048407441626
+epoch 21 loss:  14.799380917868612
+epoch 21 time:  0.7294153456576169
+batch time:  0.4558885542831073
+batch time:  0.3288352466188371
+epoch 22 loss:  4.279174260397001
+epoch 22 time:  0.784841927078863
+batch time:  0.4097985362789283
+batch time:  0.33912426029952863
+epoch 23 loss:  13.919436872321963
+epoch 23 time:  0.749018905016904
+batch time:  0.5378428902477026
+batch time:  0.36701571829617025
+epoch 24 loss:  3.0492070518187617
+epoch 24 time:  0.9050269000853102
+batch time:  0.5197360614625116
+batch time:  0.27194490406351784
+epoch 25 loss:  13.314609617110143
+epoch 25 time:  0.7918250220672538
+batch time:  0.4456264384556562
+batch time:  0.30028312917177874
+epoch 26 loss:  16.568132142572555
+epoch 26 time:  0.7460626011248678
+batch time:  0.43633197906116644
+batch time:  0.298323796208327
+epoch 27 loss:  9.514702146455871
+epoch 27 time:  0.7347635020657132
+batch time:  0.37936729793436824
+batch time:  0.22309504320534568
+epoch 28 loss:  6.683021052345418
+epoch 28 time:  0.6026114371915658
+batch time:  0.34312521351190906
+batch time:  0.22313546406415602
+epoch 29 loss:  7.135238553362985
+epoch 29 time:  0.566330426124235
+encode time:  18.173535973299295
+
+Start sliding the raw time series and the corresponding class and variate label
+0
+X_slide shape: (3900, 382)
+candidates_dim: (3900, 382)
+candidates_class_label: (3900, 382)
+batch number:  78
+count:  0
+representation_all shape: (3900, 320)
+1
+X_slide shape: (5820, 254)
+candidates_dim: (5820, 254)
+candidates_class_label: (5820, 254)
+batch number:  117
+count:  0
+count:  100
+representation_all shape: (9720, 320)
+2
+X_slide shape: (7740, 127)
+candidates_dim: (7740, 127)
+candidates_class_label: (7740, 127)
+batch number:  155
+count:  0
+count:  100
+representation_all shape: (17460, 320)
+End sliding
+siding time:  0.15707441736012698
+
+* All the shapelets info:
+(17460, 320)
+17460
+(17460,)
+all subTs num: [3900, 5820, 7740]
+
+Start clustring all the new representations...
+End clustring
+clustring time: 0.9451136929914356
+
+calculate elements number in each cluster
+time: 0.4151268005371094
+
+get the nearest index
+time: 0.21908235549926758
+
+Start scoring all the candidate...
+End scoring
+discovery time:  1.1188234927598386
+transformation time:  0.22081711681870123
+classification time:  4.099973787864049e-05
+svm linear Accuracy: 0.6557377049180327
+              precision    recall  f1-score   support
+
+          -1       0.73      0.39      0.51        28
+           1       0.63      0.88      0.73        33
+
+    accuracy                           0.66        61
+   macro avg       0.68      0.64      0.62        61
+weighted avg       0.68      0.66      0.63        61
+
+All time:  19.99251002445817

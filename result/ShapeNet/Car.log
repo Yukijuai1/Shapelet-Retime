@@ -1,0 +1,72 @@
+nohup: 忽略输入
+parse arguments succeed !!!
+60 1 577
+start new network training
+train encoder
+batch time:  0.3955570017142842
+batch time:  0.3881232378849139
+epoch 0 loss:  67.78384592991884
+epoch 0 time:  0.7837231957198431
+encode time:  0.7918356467814495
+
+Start sliding the raw time series and the corresponding class and variate label
+0
+X_slide shape: (3540, 346)
+candidates_dim: (3540, 346)
+candidates_class_label: (3540, 346)
+batch number:  71
+count:  0
+representation_all shape: (3540, 320)
+1
+X_slide shape: (5280, 230)
+candidates_dim: (5280, 230)
+candidates_class_label: (5280, 230)
+batch number:  106
+count:  0
+count:  100
+representation_all shape: (8820, 320)
+2
+X_slide shape: (7020, 115)
+candidates_dim: (7020, 115)
+candidates_class_label: (7020, 115)
+batch number:  141
+count:  0
+count:  100
+representation_all shape: (15840, 320)
+End sliding
+siding time:  0.130088667695721
+
+* All the shapelets info:
+(15840, 320)
+15840
+(15840,)
+all subTs num: [3540, 5280, 7020]
+
+Start clustring all the new representations...
+End clustring
+clustring time: 1.4994385063337783
+
+calculate elements number in each cluster
+time: 0.7757694721221924
+
+get the nearest index
+time: 0.28321027755737305
+
+Start scoring all the candidate...
+End scoring
+discovery time:  1.6540196690242737
+transformation time:  0.13195834330593545
+classification time:  3.4825255473454796e-05
+svm linear Accuracy: 0.6833333333333333
+              precision    recall  f1-score   support
+
+           1       0.62      0.93      0.74        14
+           2       1.00      0.93      0.96        14
+           3       0.61      0.58      0.59        19
+           4       0.50      0.31      0.38        13
+
+    accuracy                           0.68        60
+   macro avg       0.68      0.69      0.67        60
+weighted avg       0.68      0.68      0.67        60
+
+All time:  2.897727328600983
